@@ -4,6 +4,7 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { green, red } from 'react-native-reanimated/lib/typescript/Colors';
 
 
 
@@ -13,50 +14,74 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/picpay.png')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Seja bem vinda Hiandara!</ThemedText>
+        <ThemedText type="title">Olá Dara!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Seu saldo é de R$1.500</ThemedText>
-        <ThemedText> <Button
+        <ThemedText type="subtitle">Seu saldo é de R$478,90</ThemedText>
+        <ThemedText style={styles.buttons}>
+         
+           <Button color={'green'}
   onPress={() => {
     console.log('You tapped the button!');
   }}
   title="Pix" 
+/>
 
+<Button color={'green'}
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="Transferências" 
 
 />
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+
+<Button color={'green'}
+  onPress={() => {
+    console.log('You tapped the button!');
+  }}
+  title="Cartões" 
+
+/>
+
+
+           <ThemedText type="defaultSemiBold"></ThemedText>  
+  
+    
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
               android: 'cmd + m',
-              web: 'F12'
+              web: ''
             })}
           </ThemedText>{' '}
-          to open developer tools.
+          
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">Agência: **12  Conta: ***07-8</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+          Em caso de dúvida fale com a IAra! Nossa inteligência artificial!
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        {/* <ThemedText type="subtitle">Para seu dia</ThemedText> */}
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          {' '}
+          <ThemedText type="defaultSemiBold">PARA SEU DIA:</ThemedText> Limites de créditos,{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> Comprovantes,{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>recargas, e mais!{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>.
+        </ThemedText> <br />
+        <ThemedText>
+          <center>
+            
+          </center>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -76,10 +101,15 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: 260,
+    width: 430,
     bottom: 0,
     left: 0,
     position: 'absolute',
   },
+
+  buttons:{
+    display: 'flex',
+    gap:10
+  }
 });
