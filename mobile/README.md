@@ -1,50 +1,24 @@
-# Welcome to your Expo app 👋
+# PicPay! trabalho Hiandara
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![A página acima mostra a página inicial, a “casa”, mostra o saldo da pessoa, a agência e a conta. Os 3 botões da página são para transferências, cartões, e pix. Ali também tem opções para a pessoa fazer no seu dia,como limite de crédito, comprovantes, recarga e etc](./assets/images/tela%20inicial.jpeg)
 
-## Get started
+A página acima mostra a página inicial, a “casa”, mostra o saldo da pessoa, a agência e a conta. Os 3 botões da página são para transferências, cartões, e pix. Ali também tem opções para a pessoa fazer no seu dia,como limite de crédito, comprovantes, recarga e etc
 
-1. Install dependencies
+![A tela de serviços mostra o que a pessoa pode fazer, e o saldo disponivel para usar nesses benefios.](./assets/images/Captura%20de%20tela_25-4-2025_112817_localhost.jpeg)
 
-   ```bash
-   npm install
-   ```
+A tela de serviços mostra o que a pessoa pode fazer, e o saldo disponivel para usar nesses benefios
 
-2. Start the app
+![Na segunda página, mostra os serviços oferecidos pelo banco, e o saldo disponível para gastar com aqueles beneficios. 
+Na página tem: 
+O Shopping, que é como um mercado digital, com as milhas usadas no cartão de credito, ou o saldo disponível você pode gastar nele. E no ‘Saiba mais” contém um link que direciona o cliente ao shopping digital. Rolando mais para baixo mostra as opções de empréstimo e investimento.
+empréstimo: o cliente pode fazer um empréstimos de até 10.000, mas depende se seu nome está limpo etc, caso o cliente queira fazer, ele deverá falar com nossa IAra(inteligência artificial), e depois direcionar a um de nossos colaboradores.
+](./assets/images/captura.jpeg)
 
-   ```bash
-    npx expo start
-   ```
+a segunda página, mostra os serviços oferecidos pelo banco, e o saldo disponível para gastar com aqueles beneficios. 
+Na página tem: 
+O Shopping, que é como um mercado digital, com as milhas usadas no cartão de credito, ou o saldo disponível você pode gastar nele. E no ‘Saiba mais” contém um link que direciona o cliente ao shopping digital. Rolando mais para baixo mostra as opções de empréstimo e investimento.
+empréstimo: o cliente pode fazer um empréstimos de até 10.000, mas depende se seu nome está limpo etc, caso o cliente queira fazer, ele deverá falar com nossa IAra(inteligência artificial), e depois direcionar a um de nossos colaboradores.
 
-In the output, you'll find options to open the app in a
+![Tem também os investimentos, que são vários tipos. Então a pessoa tem que pesquisar para descobrir seu tipo de investimento. O saldo da pessoa é aquele que ela tem para investir, ali no caso seria R$279,00. E a central de ajuda que é caso alguém tenha alguma dúvida, fale com um de nossos colaboradores, clicando no link abaixo. ](./assets/images/seviços%202.png)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Tem também os investimentos, que são vários tipos. Então a pessoa tem que pesquisar para descobrir seu tipo de investimento. O saldo da pessoa é aquele que ela tem para investir, ali no caso seria R$279,00. E a central de ajuda que é caso alguém tenha alguma dúvida, fale com um de nossos colaboradores, clicando no link abaixo.
